@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clash Of BKS✓ - Nível 8</title>
+    <title>Clash Of BKS✓</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -20,28 +20,34 @@
             position: sticky;
             top: 0;
             z-index: 1000;
+            border-bottom: 2px solid #00cc00;
         }
         header h1 {
             margin: 0;
-            font-size: 32px;
+            font-size: 36px;
+            color: #00cc00;
         }
         header p {
             margin: 5px 0 0;
-            font-size: 18px;
+            font-size: 16px;
+            color: #cccccc;
         }
         nav {
             background-color: #2e3b3b;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
         }
         nav a {
             color: #ffffff;
-            margin: 0 20px;
+            margin: 0 25px;
             text-decoration: none;
             font-weight: bold;
+            transition: color 0.3s;
         }
         nav a:hover {
             color: #00cc00;
+            text-shadow: 0 0 5px #00cc00;
         }
         .section {
             max-width: 1000px;
@@ -49,6 +55,7 @@
             padding: 20px;
             background-color: #2e3b3b;
             border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
         h2 {
             color: #00cc00;
@@ -56,11 +63,16 @@
             border-bottom: 1px solid #00cc00;
             padding-bottom: 5px;
         }
-        .layout-item {
+        .layout-item, .news-item, .member-item, .war-report {
             background-color: #1f2a2a;
             padding: 15px;
             margin: 15px 0;
             border-radius: 5px;
+        }
+        .layout-item {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
         }
         .layout-item h3 {
             margin: 0 0 10px;
@@ -69,8 +81,14 @@
         }
         .layout-item p {
             margin: 5px 0;
+            flex: 1;
         }
-        .copy-btn {
+        .layout-item img {
+            max-width: 200px;
+            margin-left: 20px;
+            border-radius: 5px;
+        }
+        .copy-btn, .details-btn {
             background-color: #00cc00;
             color: #ffffff;
             border: none;
@@ -78,8 +96,9 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            transition: background-color 0.3s;
         }
-        .copy-btn:hover {
+        .copy-btn:hover, .details-btn:hover {
             background-color: #009900;
         }
         .join-btn {
@@ -90,17 +109,60 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            transition: background-color 0.3s;
         }
         .join-btn:hover {
             background-color: #2980b9;
+        }
+        .rewards-list {
+            list-style: none;
+            padding: 0;
+        }
+        .rewards-list li {
+            background: url('https://via.placeholder.com/20?text=🏆') no-repeat left center;
+            padding-left: 30px;
+            margin: 10px 0;
+        }
+        .news-item h3, .member-item h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+            color: #00cc00;
+        }
+        .war-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+        }
+        .war-table th, .war-table td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #00cc00;
+        }
+        .war-table th {
+            background-color: #0f1515;
+            color: #00cc00;
+        }
+        .war-table tr:hover {
+            background-color: #2a3b3b;
+            transition: background-color 0.3s;
+        }
+        .progress-bar {
+            width: 100%;
+            background-color: #cccccc;
+            height: 20px;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background-color: #00cc00;
+            width: 72.2%; /* Taxa de participação */
         }
         footer {
             background-color: #0f1515;
             color: #ffffff;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
             width: 100%;
         }
         @media (max-width: 600px) {
@@ -112,19 +174,29 @@
                 margin: 10px;
                 padding: 15px;
             }
+            .layout-item {
+                flex-direction: column;
+            }
+            .layout-item img {
+                margin: 10px 0 0;
+                max-width: 100%;
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Clash Of BKS✓ - Nível 8</h1>
-        <p>Guerreiros estratégicos rumo ao Nível 9!</p>
+        <h1>Clash Of BKS✓</h1>
+        <p>Clã Nível 8 - Desde 2019</p>
     </header>
 
     <nav>
         <a href="#historia">História</a>
         <a href="#layouts">Layouts</a>
         <a href="#recompensas">Recompensas</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#membros">Membros Destaque</a>
+        <a href="#relatorio">Relatório de Guerra</a>
         <a href="#contato">Contato</a>
     </nav>
 
@@ -140,31 +212,101 @@
         <p>Layouts testados e aprovados pelos membros do clã. Copie diretamente para o seu jogo!</p>
         
         <div class="layout-item">
-            <h3>TH12 - Layout de Guerra</h3>
-            <p><strong>Tipo:</strong> Guerra<br>
-               <strong>Descrição:</strong> Proteção contra ataques aéreos, ideal para guerras do clã.<br>
-               <strong>Tropas de Defesa:</strong> Dragão Bebê, Bruxa, Arqueiras</p>
-            <button class="copy-btn" onclick="window.open('https://link.clashofclans.com/', '_blank')">Copiar Layout</button>
+            <div>
+                <h3>TH12 - Layout de Guerra</h3>
+                <p><strong>Tipo:</strong> Guerra<br>
+                   <strong>Descrição:</strong> Proteção contra ataques aéreos, ideal para guerras do clã.<br>
+                   <strong>Tropas de Defesa:</strong> Dragão Bebê, Bruxa, Arqueiras<br>
+                   <strong>Pontos Fortes:</strong> Anti-dragão, resistente a feitiços</p>
+                <button class="copy-btn" onclick="window.open('https://link.clashofclans.com/', '_blank')">Copiar Layout</button>
+            </div>
+            <img src="https://via.placeholder.com/200x150?text=TH12+Guerra" alt="TH12 Guerra">
         </div>
         
         <div class="layout-item">
-            <h3>TH11 - Layout de Farming</h3>
-            <p><strong>Tipo:</strong> Farming<br>
-               <strong>Descrição:</strong> Máxima retenção de recursos (ouro, elixir e elixir negro).<br>
-               <strong>Tropas de Defesa:</strong> Golem, Valquírias</p>
-            <button class="copy-btn" onclick="window.open('https://link.clashofclans.com/', '_blank')">Copiar Layout</button>
+            <div>
+                <h3>TH11 - Layout de Farming</h3>
+                <p><strong>Tipo:</strong> Farming<br>
+                   <strong>Descrição:</strong> Máxima retenção de recursos (ouro, elixir e elixir negro).<br>
+                   <strong>Tropas de Defesa:</strong> Golem, Valquírias<br>
+                   <strong>Pontos Fortes:</strong> Armazenamentos centralizados</p>
+                <button class="copy-btn" onclick="window.open('https://link.clashofclans.com/', '_blank')">Copiar Layout</button>
+            </div>
+            <img src="https://via.placeholder.com/200x150?text=TH11+Farming" alt="TH11 Farming">
         </div>
     </div>
 
     <div class="section" id="recompensas">
         <h2>Recompensas</h2>
         <p>Reconhecimento para membros ativos do Clash Of BKS✓:</p>
-        <ul>
+        <ul class="rewards-list">
             <li>150 doações: Título "BKS Leal"</li>
             <li>MVP da Guerra: Destaque no site</li>
             <li>4.000 pontos nos Jogos de Clã: Elogio oficial</li>
         </ul>
         <p><strong>Meta do Clã:</strong> 50.000 pontos na Liga de Guerra.</p>
+    </div>
+
+    <div class="section" id="noticias">
+        <h2>Notícias</h2>
+        <p>Últimas atualizações do Clash Of BKS✓:</p>
+        <div class="news-item">
+            <h3>25/03/2025 - Vitória Épica na Guerra #50</h3>
+            <p>O clã conquistou uma vitória incrível com 98% de destruição! Parabéns a todos os guerreiros!</p>
+        </div>
+        <div class="news-item">
+            <h3>20/03/2025 - Novo Recorde nos Jogos de Clã</h3>
+            <p>Alcançamos 45.000 pontos, rumo à meta de 50.000!</p>
+        </div>
+    </div>
+
+    <div class="section" id="membros">
+        <h2>Membros Destaque</h2>
+        <p>Guerreiros que brilharam no Clash Of BKS✓:</p>
+        <div class="member-item">
+            <h3>BKS_Guerreiro - TH12</h3>
+            <p><strong>Conquista:</strong> MVP da Guerra #50 com 3 estrelas em ataques decisivos.</p>
+        </div>
+        <div class="member-item">
+            <h3>ClashMaster - TH11</h3>
+            <p><strong>Conquista:</strong> Maior doador de Março com 300 doações.</p>
+        </div>
+    </div>
+
+    <div class="section" id="relatorio">
+        <h2>Relatório de Guerra - 26/03/2025</h2>
+        <p>Análise de desempenho da guerra mais recente do Clash Of BKS✓:</p>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <p><strong>Taxa de Participação:</strong> 72.2% (13/18 membros atacaram)</p>
+        <table class="war-table">
+            <tr>
+                <th>Membro</th>
+                <th>Desempenho</th>
+                <th>Ação</th>
+            </tr>
+            <tr style="background-color: #2a4d2a;"><td>@Deck</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #2a4d2a;"><td>@MAGNO</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d4d;"><td>@ČäRlØs</td><td>Não atacou</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #2a4d2a;"><td>@Vipe</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #2a4d2a;"><td>@Princesa D.R</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #2a4d2a;"><td>@meteoryk</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d2a;"><td>@Garitano</td><td>63%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d2a;"><td>@PHx7.ofc</td><td>91%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d4d;"><td>@MY DEMON</td><td>Não atacou</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d4d;"><td>@COST4</td><td>Não atacou</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #2a4d2a;"><td>@OliverRaRo</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d2a;"><td>@FakzinnClash</td><td>90%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d2a2a;"><td>@Riantw.</td><td>0%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #2a4d2a;"><td>@iTz Cristian</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d2a;"><td>@Monsther</td><td>73%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #2a4d2a;"><td>@Nobile</td><td>💯%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d2a;"><td>@Kawan</td><td>83%</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d4d;"><td>@Mazino</td><td>Não atacou</td><td><button class="details-btn">Detalhes</button></td></tr>
+            <tr style="background-color: #4d4d4d;"><td>@Will Schütze</td><td>Não atacou</td><td><button class="details-btn">Detalhes</button></td></tr>
+        </table>
+        <p><strong>Legenda:</strong> 🟢 Bom (100%) | 🟡 Pode melhorar (1-99%) | 🔴 Infrator (0%) | ⚪ Não atacou</p>
     </div>
 
     <div class="section" id="contato">
