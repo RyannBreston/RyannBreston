@@ -3,67 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clash Of BKS✓ - Clã Nível 8</title>
+    <title>Clash Of BKS✓ - Nível 8</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: #fff;
+            font-family: 'Arial', sans-serif;
+            background-color: #1a2525;
+            color: #ffffff;
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
         header {
-            background-color: #006400;
+            background-color: #0f1515;
             padding: 20px;
             text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 18px;
         }
         nav {
-            background-color: #333;
+            background-color: #2e3b3b;
             padding: 10px;
             text-align: center;
         }
         nav a {
-            color: #00ff00;
+            color: #ffffff;
             margin: 0 20px;
             text-decoration: none;
             font-weight: bold;
         }
         nav a:hover {
-            color: #ffd700;
+            color: #00cc00;
         }
         .section {
-            margin: 20px;
-            padding: 15px;
-            background-color: #2a2a2a;
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #2e3b3b;
             border-radius: 5px;
         }
-        h1, h2 {
-            color: #ffd700;
+        h2 {
+            color: #00cc00;
+            font-size: 24px;
+            border-bottom: 1px solid #00cc00;
+            padding-bottom: 5px;
         }
-        p {
-            line-height: 1.6;
+        .layout-item {
+            background-color: #1f2a2a;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
         }
-        .ranking-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 10px;
+        .layout-item h3 {
+            margin: 0 0 10px;
+            font-size: 20px;
+            color: #00cc00;
         }
-        .ranking-table th, .ranking-table td {
-            border: 1px solid #00ff00;
-            padding: 8px;
-            text-align: center;
+        .layout-item p {
+            margin: 5px 0;
         }
-        .ranking-table th {
-            background-color: #006400;
+        .copy-btn {
+            background-color: #00cc00;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .copy-btn:hover {
+            background-color: #009900;
+        }
+        .join-btn {
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .join-btn:hover {
+            background-color: #2980b9;
         }
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: #0f1515;
+            color: #ffffff;
             text-align: center;
             padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .section {
+                margin: 10px;
+                padding: 15px;
+            }
         }
     </style>
 </head>
@@ -77,56 +125,52 @@
         <a href="#historia">História</a>
         <a href="#layouts">Layouts</a>
         <a href="#recompensas">Recompensas</a>
-        <a href="#ranking">Ranking</a>
+        <a href="#contato">Contato</a>
     </nav>
 
     <div class="section" id="historia">
         <h2>História do Clash Of BKS✓</h2>
-        <p>O Clash Of BKS✓ alcançou o Nível 8 em Março de 2025, após batalhas épicas e união implacável. Nossa jornada começou com um grupo pequeno de guerreiros determinados a crescer no Clash of Clans. Hoje, somos um clã forte, focado em estratégias inteligentes e vitórias memoráveis!</p>
+        <p>Desde 30/06/2019, a amizade e o trabalho em equipe têm sido essenciais para o crescimento de todos, fortalecendo e dominando o jogo. Regras simples: compromisso, evolução e união. Obrigatório informar o número para entrar no grupo do WhatsApp e acompanhar estratégias e eventos. Se você busca um clã forte, leal e em constante crescimento, junte-se a nós!</p>
+        <p>Hoje, como clã Nível 8, seguimos firmes rumo a novas conquistas.</p>
+        <button class="join-btn" onclick="window.open('https://wa.me/INSIRA_SEU_NUMERO', '_blank')">Junte-se a Nós</button>
     </div>
 
     <div class="section" id="layouts">
-        <h2>Layouts do Nível 8</h2>
-        <p>Aqui estão alguns layouts testados pelos membros do Clash Of BKS✓, perfeitos para aproveitar as vantagens do nosso clã Nível 8. Em breve, adicionaremos links diretos para copiar no jogo!</p>
-        <p><strong>Layout TH12 Guerra:</strong> Ideal contra ataques aéreos.<br>
-           <strong>Layout TH11 Farming:</strong> Proteja seus recursos com estilo!</p>
+        <h2>Layouts do Clash Of BKS✓</h2>
+        <p>Layouts testados e aprovados pelos membros do clã. Copie diretamente para o seu jogo!</p>
+        
+        <div class="layout-item">
+            <h3>TH12 - Layout de Guerra</h3>
+            <p><strong>Tipo:</strong> Guerra<br>
+               <strong>Descrição:</strong> Proteção contra ataques aéreos, ideal para guerras do clã.<br>
+               <strong>Tropas de Defesa:</strong> Dragão Bebê, Bruxa, Arqueiras</p>
+            <button class="copy-btn" onclick="window.open('https://link.clashofclans.com/', '_blank')">Copiar Layout</button>
+        </div>
+        
+        <div class="layout-item">
+            <h3>TH11 - Layout de Farming</h3>
+            <p><strong>Tipo:</strong> Farming<br>
+               <strong>Descrição:</strong> Máxima retenção de recursos (ouro, elixir e elixir negro).<br>
+               <strong>Tropas de Defesa:</strong> Golem, Valquírias</p>
+            <button class="copy-btn" onclick="window.open('https://link.clashofclans.com/', '_blank')">Copiar Layout</button>
+        </div>
     </div>
 
     <div class="section" id="recompensas">
         <h2>Recompensas</h2>
-        <p>Seja reconhecido no Clash Of BKS✓! Aqui estão nossas recompensas:</p>
+        <p>Reconhecimento para membros ativos do Clash Of BKS✓:</p>
         <ul>
-            <li>150 doações = Título "BKS Leal"</li>
-            <li>MVP da Guerra = Menção especial no site</li>
-            <li>4.000 pontos nos Jogos de Clã = Elogio do Líder</li>
+            <li>150 doações: Título "BKS Leal"</li>
+            <li>MVP da Guerra: Destaque no site</li>
+            <li>4.000 pontos nos Jogos de Clã: Elogio oficial</li>
         </ul>
-        <p><strong>Meta Atual:</strong> 50.000 pontos na Liga de Guerra para celebrar o Nível 8!</p>
+        <p><strong>Meta do Clã:</strong> 50.000 pontos na Liga de Guerra.</p>
     </div>
 
-    <div class="section" id="ranking">
-        <h2>Ranking dos Guerreiros</h2>
-        <p>Os melhores do Clash Of BKS✓ Nível 8:</p>
-        <table class="ranking-table">
-            <tr>
-                <th>Nome</th>
-                <th>TH</th>
-                <th>Doações</th>
-                <th>Pontos de Guerra</th>
-            </tr>
-            <tr>
-                <td>BKS_Guerreiro</td>
-                <td>12</td>
-                <td>200</td>
-                <td>85%</td>
-            </tr>
-            <tr>
-                <td>ClashMaster</td>
-                <td>11</td>
-                <td>150</td>
-                <td>90%</td>
-            </tr>
-        </table>
-        <p><strong>Destaque do Mês:</strong> BKS_Guerreiro – Liderou a guerra que nos levou ao Nível 8!</p>
+    <div class="section" id="contato">
+        <h2>Contato</h2>
+        <p>Fique por dentro das estratégias e eventos do clã! Entre em contato pelo WhatsApp:</p>
+        <button class="join-btn" onclick="window.open('https://wa.me/INSIRA_SEU_NUMERO', '_blank')">Grupo do WhatsApp</button>
     </div>
 
     <footer>
