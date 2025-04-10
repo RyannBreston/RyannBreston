@@ -21,6 +21,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (welcomeText) {
         welcomeText.textContent = `Bem-vindo, ${username}!`;
     }
+
+    // Mostrar/esconder notificações
+    const notificationIcon = document.querySelector('.notification');
+    const notificationModal = document.getElementById('notification-modal');
+    const closeNotifications = document.getElementById('close-notifications');
+
+    if (notificationIcon && notificationModal && closeNotifications) {
+        notificationIcon.addEventListener('click', () => {
+            notificationModal.classList.remove('hidden');
+        });
+
+        closeNotifications.addEventListener('click', () => {
+            notificationModal.classList.add('hidden');
+        });
+    }
 });
 
 // Função para o botão de sair
