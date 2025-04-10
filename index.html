@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Moda</title>
+    <title>Login - Super Moda</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,44 +12,17 @@
         <div class="logo">
             <img src="logo-super-moda.png" alt="Super Moda Logo">
         </div>
-        <button class="logout-btn">Sair</button>
-        <div class="welcome-text">Bem-vindo, Visitante!</div>
     </header>
     <main>
-        <section class="icon-grid">
-            <!-- Linha 1 -->
-            <a href="meus-dados.html" class="icon-item">
-                <div class="icon-circle">
-                    <i class="fas fa-user"></i>
-                </div>
-                <p>Meus Dados</p>
-            </a>
-            <a href="meus-resultados.html" class="icon-item">
-                <div class="icon-circle">
-                    <i class="fas fa-trophy"></i>
-                </div>
-                <p>Meus Resultados</p>
-            </a>
-            <a href="holerite.html" class="icon-item">
-                <div class="icon-circle">
-                    <i class="fas fa-money-check-alt"></i>
-                </div>
-                <p>Holerite</p>
-            </a>
-
-            <!-- Linha 2 -->
-            <a href="meu-ponto.html" class="icon-item">
-                <div class="icon-circle">
-                    <i class="fas fa-clock"></i>
-                </div>
-                <p>Meu Ponto</p>
-            </a>
-            <a href="minhas-ferias.html" class="icon-item">
-                <div class="icon-circle">
-                    <i class="fas fa-umbrella-beach"></i>
-                </div>
-                <p>Minhas Férias</p>
-            </a>
+        <section>
+            <h2>Faça Login</h2>
+            <form id="login-form">
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Entrar</button>
+            </form>
         </section>
     </main>
     <script src="script.js"></script>
