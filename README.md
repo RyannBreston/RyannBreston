@@ -46,12 +46,20 @@
   <p style="color: #FFFFFF; font-family: 'JetBrains Mono', monospace; font-size: 12px; text-align: center; margin-top: 10px;">Contribuições totais: 0 (públicas) | Última atualização: 26/04/2025</p>
 </div>
 
-<style>
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-</style>
+## 📂 Repositórios
+<p align="center" style="color: #FFFFFF; font-family: 'JetBrains Mono', monospace; font-size: 16px;">
+  Nenhum repositório público disponível no momento. Em breve, novos projetos serão adicionados!
+</p>
+
+## 📦 Projetos e Pacotes
+<p align="center" style="color: #FFFFFF; font-family: 'JetBrains Mono', monospace; font-size: 16px;">
+  Projetos e pacotes: 0 | Aguardando criações futuras
+</p>
+
+## ⭐ Estrelas Recebidas
+<p align="center" style="color: #FFFFFF; font-family: 'JetBrains Mono', monospace; font-size: 16px;">
+  Estrelas recebidas: 0 | Prepare-se para ver este número crescer!
+</p>
 
 ## 📌 Projetos em Desenvolvimento
 <p align="center" style="color: #FFFFFF; font-family: 'JetBrains Mono', monospace; font-size: 16px;">
@@ -81,3 +89,10 @@
 <p align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWFiNDM2ZGQ5M2VhMjUzMDc1NDVhMjY5Y2I4ZGZiMDM3NzVhNzBhNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT9IgzoW4Z3hGq0l3O/giphy.gif" alt="GIF" width="300" style="border-radius: 5px; box-shadow: 0 0 10px rgba(255, 111, 97, 0.2);" />
 </p>
+
+<style>
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
