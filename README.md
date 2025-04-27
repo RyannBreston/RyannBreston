@@ -19,7 +19,15 @@
   <img src="https://skillicons.dev/icons?i=html,css,javascript,python,git,github,vscode,linux,figma,nodejs" style="filter: drop-shadow(0 0 5px #FF6F61);" />
 </p>
 
-## 📊 Estatísticas Atuais
+## 📊 Distribuição de Contribuições
+<p align="center" style="background: #0D1117; padding: 20px; border-radius: 15px; box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);">
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=RyannBreston&layout=compact&custom_title=Distribuição+de+Contribuições&hide_border=true&langs_count=4&bg_color=0D1117&title_color=00FFFF&text_color=00FFFF&icon_color=00FFFF" alt="Distribuição de Contribuições" style="border-radius: 5px;" />
+  <p style="color: #00FFFF; font-family: 'JetBrains Mono', monospace; font-size: 12px; text-align: center; margin-top: 10px;">
+    Commits: 0% | Issues: 0% | Pull Requests: 0% | Code Review: 0%
+  </p>
+</p>
+
+## 📈 Estatísticas Atuais
 <div align="center" style="background: #1E2A44; padding: 20px; border-radius: 15px; box-shadow: 0 0 20px rgba(255, 111, 97, 0.3); display: flex; gap: 20px;">
   <div style="position: relative; background: #2A3B5A; padding: 15px; border-radius: 10px; box-shadow: 0 0 10px rgba(255, 111, 97, 0.2);">
     <div style="position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: #FF6F61; color: #FFFFFF; padding: 5px 15px; border-radius: 5px; font-family: 'JetBrains Mono', monospace; font-size: 14px;">Estatísticas</div>
