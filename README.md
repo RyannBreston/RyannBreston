@@ -12,12 +12,14 @@
 </div>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/SEU-PERFIL-LINKEDIN"> <img src="https://img.shields.io/badge/LinkedIn-FF6F61?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  <a href="https://www.linkedin.com/in/rian-d-s-santos-008b2524a/">
+    <img src="https://img.shields.io/badge/LinkedIn-FF6F61?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://x.com/Ryanbreston_DM">
     <img src="https://img.shields.io/badge/Twitter-FF6F61?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
-  <a href="mailto:SEU-EMAIL-AQUI@dominio.com"> <img src="https://img.shields.io/badge/Email-FF6F61?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+  <a href="mailto:ryanbreston@gmail.com">
+    <img src="https://img.shields.io/badge/Email-FF6F61?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </div>
 
