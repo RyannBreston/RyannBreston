@@ -3,14 +3,14 @@
 </div>
 
 <p align="center">
-  <em>Desenvolvedor em formação, líder de clã no Clash of Clans e um entusiasta de tecnologia pronto para construir projetos inovadores.</em>
+  <em>Desenvolvedor, estrategista e um entusiasta de tecnologia pronto para construir projetos inovadores.</em>
 </p>
 
 <div align="center">
   <a href="https://github.com/RyannBreston">
     <img src="https://img.shields.io/github/followers/RyannBreston?style=flat-square&label=Seguidores&color=FF6F61&logo=github" alt="Seguidores no GitHub"/>
   </a>
-  <a href="https://twitter.com/Ryanbreston_DM">
+  <a href="https://x.com/Ryanbreston_DM">
     <img src="https://img.shields.io/badge/Twitter-FF6F61?style=flat-square&logo=twitter" alt="Twitter"/>
   </a>
   <a href="mailto:seu-email-aqui@dominio.com"> <img src="https://img.shields.io/badge/Email-FF6F61?style=flat-square&logo=gmail" alt="Email"/>
@@ -29,6 +29,16 @@ Sou um desenvolvedor curioso e dedicado, atualmente trilhando minha jornada para
 
 ---
 
+### ♟️ Estratégia e Código: Minha Filosofia
+
+Acredito que desenvolver software é como planejar uma batalha estratégica. Cada decisão importa e a preparação é a chave para a vitória.
+
+-   **Planejamento Tático:** Assim como analiso uma base inimiga antes de atacar, eu desenho a arquitetura e o fluxo de dados de um projeto antes de escrever a primeira linha de código.
+-   **Tropas Especializadas:** Cada função ou componente no meu código é como uma tropa: tem um propósito claro, é eficiente no que faz e trabalha em sinergia com o resto do "exército".
+-   **Adaptação Contínua:** O campo de batalha da tecnologia muda constantemente. Estou sempre aprendendo novas táticas (tecnologias) para superar qualquer desafio.
+
+---
+
 ### 💻 Tecnologias e Ferramentas
 
 <p align="center">
@@ -37,11 +47,17 @@ Sou um desenvolvedor curioso e dedicado, atualmente trilhando minha jornada para
 
 ---
 
-### 📊 Minhas Estatísticas no GitHub
+### 🚀 Meus Projetos em Destaque
 
 <div align="center">
-<p><em>Estou no início da minha jornada pública no GitHub. Acompanhe meu progresso!</em></p>
+  <p><em>Meus projetos inovadores aparecerão aqui em breve. Fique de olho!</em></p>
+  </div>
 
+---
+
+### 📊 Minhas Estatísticas e Atividade
+
+<div align="center">
 <table>
   <tr>
     <td width="50%">
@@ -52,28 +68,13 @@ Sou um desenvolvedor curioso e dedicado, atualmente trilhando minha jornada para
     </td>
   </tr>
 </table>
+
+#### ⏰ Minha Atividade de Código (via WakaTime)
+#### 🔥 Minha Jornada de Contribuições
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=RyannBreston&theme=transparent&hide_border=true&background=1E2A44&stroke=FF6F61&ring=FF6F61&fire=FF6F61&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF6F61&sideLabels=FFFFFF&dates=FFFFFF&locale=pt-br" alt="Sequência de Contribuições" />
+<br><br>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=RyannBreston&theme=transparent&hide_border=true&area=true&bg_color=1E2A44&color=FF6F61&line=FF6F61&point=FFFFFF&area_color=FF6F61" alt="Gráfico de Atividade" />
 </div>
-
----
-
-### 🔥 Minha Jornada de Contribuições
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RyannBreston&theme=transparent&hide_border=true&background=1E2A44&stroke=FF6F61&ring=FF6F61&fire=FF6F61&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FF6F61&sideLabels=FFFFFF&dates=FFFFFF&locale=pt-br" alt="Sequência de Contribuições" />
-  <br><br>
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=RyannBreston&theme=transparent&hide_border=true&area=true&bg_color=1E2A44&color=FF6F61&line=FF6F61&point=FFFFFF&area_color=FF6F61" alt="Gráfico de Atividade" />
-</div>
-
----
-
-### 🚀 Meus Projetos
-
-<p>Aqui estarão meus projetos conforme eu os desenvolvo e publico. Fique de olho!</p>
-
-#### Em Desenvolvimento:
--   **[Site para Clã de Clash of Clans]**
-    -   **Descrição:** Uma plataforma para gerenciamento de membros, estratégias de guerra e comunicação para o meu clã.
-    -   **Tecnologias:** HTML, CSS, JavaScript (e em breve, Node.js para o backend).
 
 <br>
 
